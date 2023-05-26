@@ -1,0 +1,79 @@
+.content-add {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+input {
+    color: #252525;
+    font-size: 2rem;
+    font-weight: 700;
+    height: 2.6rem;
+    padding: 1.8rem;
+    background-color: rgba(176, 164, 164, 1);
+    border-radius: 20px 0px 0px 20px;
+}
+
+#btn-add-task {
+    font-size: 2rem;
+    font-weight: 500;
+    height: 2.6rem;
+    padding: 1.8rem;
+    color: #fff;
+    background: #83A5DC;
+    border-radius: 0px 20px 20px 0px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#btn-add-task:hover {
+    opacity: .6;
+}
+
+.content-list{
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+    padding: 0;
+}
+
+.content-list  #to-do-list li {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    list-style: none;
+    background: #333333;
+    color: #fff;
+    
+    border-radius: 40px;
+    margin-bottom: 2rem;
+    padding: 1.4rem;
+}
+
+.content-list  #to-do-list li:hover {
+    opacity: .8;
+}
+
+.content-list  #to-do-list li a {
+    width: 40px;
+    height: 40px;
+    font-size: 1.4rem;
+    color: #fff;
+    background: #194C8F;
+    border-radius: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-list  #to-do-list li a:hover {
+    opacity: .5;
+}

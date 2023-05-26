@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: 'Sarala', sans-serif;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: gradient 10s ease infinite;
+    background: linear-gradient(-45deg, #0B2447, #19376D, #576CBC, #A5D7E8) no-repeat;
+    background-size: 300% 300%;
+    color: white;
+    height: 98vh;
+    font-size: 300%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
